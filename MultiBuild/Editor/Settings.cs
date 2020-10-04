@@ -13,21 +13,16 @@ namespace MultiBuild {
         Mac64 = 3,
         Mac = 3, // now the default
         MacUniversal = 4,
-        Linux32 = 5,
         Linux64 = 6,
         iOS = 7,
         Android = 8,
         WebGL = 9,
         WinStore = 10,
-        Tizen = 11,
-        PS4 = 12,
-        XboxOne = 13,
-        SamsungTV = 14,
-        Nintendo3DS = 15,
-        WiiU = 16,
-        tvOS = 17,
+        PS4 = 11,
+        XboxOne = 12,
+        tvOS = 13,
 #if UNITY_5_6_OR_NEWER
-        Switch = 18,
+        Switch = 14,
 #endif
     }
 

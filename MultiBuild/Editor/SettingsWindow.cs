@@ -34,7 +34,6 @@ namespace MultiBuild {
                     _targetNames = new Dictionary<Target, string> {
                         {Target.Android, "Android"},
                         {Target.iOS, "iOS"},
-                        {Target.Linux32, "Linux 32-bit"},
                         {Target.Linux64, "Linux 64-bit"},
                         {Target.Mac32, "Mac 32-bit"},
                         {Target.Mac64, "Mac 64-bit"},
@@ -43,13 +42,9 @@ namespace MultiBuild {
                         {Target.Win32, "Windows 32-bit"},
                         {Target.Win64, "Windows 64-bit"},
                         {Target.WinStore, "Windows Store App"},
-                        {Target.Tizen, "Tizen"},
                         {Target.PS4, "Playstation 4"},
                         {Target.XboxOne, "Xbox One"},
-                        {Target.SamsungTV, "Samsung TV"},
-                        {Target.WiiU, "Nintendo WiiU"},
                         {Target.tvOS, "tvOS"},
-                        {Target.Nintendo3DS, "Nintendo 3DS"},
 #if UNITY_5_6_OR_NEWER
                         {Target.Switch, "Nintendo Switch"},
 #endif
